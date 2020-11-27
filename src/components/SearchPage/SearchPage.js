@@ -4,8 +4,7 @@ import { SongInfo } from '../SongInfo/SongInfo';
 import './SearchPage.scss';
 
 export const SearchPage = () => (
-  <section className="search">
-    <h1 className="search__title">Find song</h1>
+  <section className="search m-3">
     <SearchForm />
     <SongInfo />
   </section>

@@ -1,1 +1,14 @@
-//Write styles here
+.artist-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  img {
+    width: 20%;
+    height: 20%;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+}

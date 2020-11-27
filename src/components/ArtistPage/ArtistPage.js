@@ -10,19 +10,16 @@ export const ArtistPage = () => {
   console.log(artist);
 
   return (
-    <div>
+    <div className="m-3">
       {artist
         ? (
-          <div className="card">
-            <div className="card-image">
-              <figure className="image">
-                <img src={artist.image[1]['#text']} alt="" />
-              </figure>
-            </div>
+          <div className="card artist-card">
+            <img src={artist.image[0]['#text']} alt="" />
             <div className="card-content">
               <a href={artist.url}>
                 {artist.name}
               </a>
+              <p>Tags :</p>
               <ul>
                 {artist.tags.tag.map(tag => (
                   <li>
@@ -33,10 +30,10 @@ export const ArtistPage = () => {
                 ))
                 }
               </ul>
-              <p>
-                {artist.bio.summary}
-              </p>
             </div>
+            <p>
+              {artist.bio.summary}
+            </p>
           </div>
         )
         : (
