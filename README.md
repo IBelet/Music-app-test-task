@@ -1,11 +1,24 @@
-# React Starter Pack
+# Test task music app
 
-To use this template click `Use this template`
+Small music app using LastFm API
 
-### Available Scripts
+[Demo](https://ibelet.github.io/Music-app-test-task/)
 
-`Deploy` - available to deploy your application to gh-pages
+## Description
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+Technology used:
+* React
+* React-Router
+* Redux
+* Redux-Thunk
+* Bulma CSS-framework
 
-`React router` - available to use dynamic routes to switch between pages
+### Dependencies
+* Node v12.16.3 and higher
+* NPM v6.14.4 and higher
+
+### Installing
+* Fork and clone this repository
+* Run `npm install` in your terminal
+* Run `npm start`
+* Install Redux DevTools extension to check Redux state in browser
