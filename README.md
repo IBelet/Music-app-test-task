@@ -1,6 +1,7 @@
 # Test task music app
 
-Small music app using LastFm API
+Small music app using LastFm API.
+
 This API doesn't give images and can't find song by name, only by name and artist 
 
 [Demo](https://ibelet.github.io/Music-app-test-task/)
