@@ -6,9 +6,6 @@ import './ArtistPage.scss';
 export const ArtistPage = () => {
   const artist = useSelector(getSelectedArtist);
 
-  // eslint-disable-next-line no-console
-  console.log(artist);
-
   return (
     <div className="m-3">
       {artist
@@ -22,7 +19,7 @@ export const ArtistPage = () => {
               <p>Tags :</p>
               <ul>
                 {artist.tags.tag.map(tag => (
-                  <li>
+                  <li key={tag.name}>
                     <a href={tag.url}>
                       {tag.name}
                     </a>

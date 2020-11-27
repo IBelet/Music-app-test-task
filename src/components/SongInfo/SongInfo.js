@@ -12,9 +12,6 @@ export const SongInfo = () => {
     );
   }
 
-  // eslint-disable-next-line no-console
-  console.log(song);
-
   if (song.message) {
     return (
       <h2>
@@ -23,7 +20,6 @@ export const SongInfo = () => {
     );
   }
 
-  // eslint-disable-next-line no-unused-vars
   const { name, artist, album } = song.track;
 
   return (

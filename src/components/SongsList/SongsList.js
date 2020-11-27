@@ -9,9 +9,6 @@ export const SongsList = () => {
   const dispatch = useDispatch();
   const songs = useSelector(getSongs);
 
-  // eslint-disable-next-line no-console
-  console.log(songs);
-
   useEffect(async() => {
     const songsFromServer = await loadPopularSongs();
 
