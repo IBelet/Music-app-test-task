@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-const BASE_URL = 'http://ws.audioscrobbler.com';
+const BASE_URL = 'https://ws.audioscrobbler.com';
 const API_KEY = '6b3d2042aa7eea41dc6a80457b25d65e';
 
 const request = async(url, options) => {
